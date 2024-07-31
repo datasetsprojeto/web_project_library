@@ -309,12 +309,12 @@
   margin: 100px 0 0;
   display: flex;
   justify-content: center;
+  column-gap: 40px;
 }
 
 .step {
   flex-basis: 220px;
   max-width: 220px;
-  row-gap: 40px;
 }
 
 .step__title {
@@ -336,7 +336,7 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: #000000;
+  background: #1f1f1f;
   color: white;
   padding: 60px 80px;
 }
